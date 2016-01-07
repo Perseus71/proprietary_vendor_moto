@@ -16,11 +16,7 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    com.qualcomm.services.location
-
-PRODUCT_PACKAGES += \
     TimeService \
     libtime_genoff
 
-$(call inherit-product, vendor/motorola/msm8960dt-common/msm8960dt-common-vendor-blobs.mk)
+$(call inherit-product, vendor/moto/msm8960dt-common/msm8960dt-common-vendor-blobs.mk)
