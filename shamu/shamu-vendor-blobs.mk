@@ -19,6 +19,13 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/moto/shamu/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/moto/shamu/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
+    vendor/moto/shamu/proprietary/lib/libradio.so:system/lib/libradio.so \
+    vendor/moto/shamu/proprietary/lib/libradio_metadata.so:system/lib/libradio_metadata.so \
+    vendor/moto/shamu/proprietary/lib/libradioservice.so:system/lib/libradioservice.so \
+    vendor/moto/shamu/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/moto/shamu/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/moto/shamu/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/moto/shamu/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/moto/shamu/proprietary/bin/adspd:system/bin/adspd \
     vendor/moto/shamu/proprietary/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
     vendor/moto/shamu/proprietary/lib/libadspd.so:system/lib/libadspd.so \
@@ -257,6 +264,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/diag/voice-call-min-log.cfg:system/etc/diag/voice-call-min-log.cfg \
     vendor/moto/shamu/proprietary/etc/diag/mdm/audio_voice_apr.cfg:system/etc/diag/mdm/audio_voice_apr.cfg \
     vendor/moto/shamu/proprietary/etc/diag/audio_voice_apr.cfg:system/etc/diag/audio_voice_apr.cfg \
+	vendor/moto/shamu/proprietary/etc/ril/qcril.db:system/etc/ril/qcril.db \
     vendor/moto/shamu/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/moto/shamu/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/moto/shamu/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -393,6 +401,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/moto/shamu/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/moto/shamu/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+	vendor/moto/shamu/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/moto/shamu/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
     vendor/moto/shamu/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
     vendor/moto/shamu/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
@@ -417,6 +426,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
     vendor/moto/shamu/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     vendor/moto/shamu/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
+	vendor/moto/shamu/proprietary/etc/init/rild.rc:system/etc/init/rild.rc \
     vendor/moto/shamu/proprietary/etc/permissions/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml \
     vendor/moto/shamu/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
     vendor/moto/shamu/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
